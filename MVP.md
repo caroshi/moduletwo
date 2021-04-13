@@ -1,4 +1,4 @@
-#Regression MVP
+# Regression MVP
 
 The goal of my regression project is to see if I can predict the international box office gross of films using pre-release features only. 
 
