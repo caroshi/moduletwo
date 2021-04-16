@@ -26,10 +26,10 @@ I also scraped a list of Top 100 Grossing Directors and Actors from The Numbers 
 After cleaning and dropping rows with null or incorrectly scraped values, I ended up with 1,500 movies. Working with this dataset, the next steps were figuring out how to optimize my features for modelling i.e. avoiding high collinearity and dropping data outliers that might skew my model.
 
 ## Algorithms
-_Modelling_
+_Modelling:_
 Simple linear regression, polynomial regression, Ridge regression, and LASSO regression were used before I finalized my model on polynomial regression with LASSO regularization as it had the strongest cross-validation performance with minimal complexity and error. 
 
-_Training and Testing_
+_Training and Testing:_
 My dataset was split into an 80/20 train/validation vs. test holdout and evaluated with a 5-fold cross validation. 
 
 ## Tools
